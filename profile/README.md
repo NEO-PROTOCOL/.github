@@ -1,9 +1,18 @@
 
 ```
-░█▀█░█▀▀░█▀█░░░█▀█░█▀▄░█▀█░▀█▀░█▀█░█▀▀░█▀█░█░░
-░█░█░█▀▀░█░█░░░█▀▀░█▀▄░█░█░░█░░█░█░█░░░█░█░█░░
-░▀░▀░▀▀▀░▀▀▀░░░▀░░░▀░▀░▀▀▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀
+░█▀█░█▀▀░█▀█░░░░░░░░░░░░░░░░   
+░█░█░█▀▀░█░█░▀░█▀█░█▄ █░█▀▀░
+░▀░▀░▀▀▀░▀▀▀░▀░▀▀▀░▀░░▀░▀▀▀░
 ```
+
+
+<p align="center">
+  <a href="https://res.cloudinary.com/dgyocpguk/image/upload/v1773004620/d2ok_gijsog.svg">
+    <img src="https://res.cloudinary.com/dgyocpguk/image/upload/v1773004620/d2ok_gijsog.svg" alt="NEØ Protocol Diagram" width="980">
+  </a>
+</p>
+
+
 
 
 **Protocol infrastructure for autonomous identity, agent orchestration, and trustless digital interactions.**
