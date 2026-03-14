@@ -1,86 +1,22 @@
-NEØ PROTOCOL
+
+![ENS](https://img.shields.io/badge/ENS-CHECK-blue?style=plastic&logo=ens&labelColor=0d0d0d)
+![IPFS](https://img.shields.io/badge/Publish-IPFS-3c7df0?style=plastic&logo=ipfs&logoColor=white&labelColor=0d0d0d)
+![IPNS](https://img.shields.io/badge/IPNS-Linked-65c2cb?style=plastic&logo=ipfs&logoColor=white&labelColor=0d0d0d)
+![Storacha](https://img.shields.io/badge/Storage-Storacha-ff4500?style=plastic&labelColor=0d0d0d)
+![Ethereum](https://img.shields.io/badge/Ethereum-Web3-627EEA?style=plastic&logo=ethereum&logoColor=white&labelColor=0d0d0d)
+![Node](https://img.shields.io/badge/Node-v22%2B-339933?style=plastic&logo=nodedotjs&logoColor=white&labelColor=0d0d0d)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES2022%2B-f7df1e?style=plastic&logo=javascript&logoColor=black&labelColor=0d0d0d)
+![Hono](https://img.shields.io/badge/API-Hono-e36002?style=plastic&logo=hono&logoColor=white&labelColor=0d0d0d)
+![Railway](https://img.shields.io/badge/Deploy-Railway-0b0d0e?style=plastic&logo=railway&logoColor=white&labelColor=0d0d0d)
 
 
-```mermaid
-graph TB
-    subgraph NEOBOT["🧠 NEOBOT CORE"]
-        GATEWAY["🚀 Gateway"]
-        NEXUS["⚡ NEXUS (Event Bus)"]
-        MIO["🆔 MIO System (Identity)"]
-        ADAPTER["🛡️ Sovereign Adapter"]
-        GATEWAY --> NEXUS
-        NEXUS <--> MIO
-        NEXUS <--> ADAPTER
-    end
-
-    subgraph OPERATIONS["💼 FLOWOFF OPERATIONS"]
-        FLOWCLOSER["💬 FlowCloser (CRM)"]
-        AGENT_FO["🤖 Agent FlowOFF"]
-        LANDING_FO["🌐 FlowOFF.xyz"]
-        PWA_FO["📱 FlowOFF PWA"]
-        LANDING_FO --> AGENT_FO
-        AGENT_FO <--> FLOWCLOSER
-        PWA_FO <--> FLOWCLOSER
-    end
-
-    subgraph FACTORY["🏭 NEO SMART FACTORY"]
-        SF_HUB["⚙️ Factory Hub API"]
-        SF_CORE["📜 Smart Core (Contracts)"]
-        SF_CLI["💻 NSF CLI"]
-        SF_UI["🖥️ Smart UI"]
-        SF_UI --> SF_HUB
-        SF_CLI --> SF_HUB
-        SF_HUB --> SF_CORE
-    end
-
-    subgraph FINANCE["💰 FLOWPAY CORE"]
-        FP_GATE["💸 FlowPay (flowpay.cash)"]
-        FP_CORE["🧠 FlowPay Core"]
-        FP_LIQ["💧 Liquidity (DEX)"]
-        FP_GATE --> FP_CORE
-        FP_CORE --> FP_LIQ
-    end
-
-    subgraph PRODUCTS["🎮 DApps & GOVERNANCE"]
-        FLUXX["⚖️ FluXX DAO"]
-        WOD["🏋️ WOD[x] Pro"]
-        NEO_LAND["🌍 neoprotocol.space"]
-        FLUXX -.-> WOD
-    end
-
-    subgraph INFRA["☁️ SOVEREIGN INFRA"]
-        RAILWAY["🚂 Railway"]
-        BASE["🔵 Base Chain (L2)"]
-        IPFS["📦 IPFS / Storacha"]
-        LLM["🧠 Anthropic"]
-        WA["💬 WhatsApp / Telegram"]
-    end
-
-    NEXUS == "PAYMENT" ==> FP_GATE
-    NEXUS == "MINT" ==> SF_HUB
-    NEXUS == "NOTIFY" ==> FLOWCLOSER
-    GATEWAY -.-> WA
-    GATEWAY -.-> RAILWAY
-    ADAPTER -.-> LLM
-    FLOWCLOSER -- "Leads" --> FP_GATE
-    FP_CORE -- "Settle" --> BASE
-    SF_CORE -- "Deploy" --> BASE
-    SF_HUB -- "Metadata" --> IPFS
-    WOD -- "Rewards" --> FP_GATE
-    FLUXX -- "Rules" --> SF_CORE
-```
-
-> 🔭 [Stack Analyzer — live view](https://dashboard.neoprotocol.space/stack-analyzer.html)
 
 
-```
-      ▄
-  ▄██▄
- █  █ █░
- █ █░ █
-  ▀██▀
-  ▀░
-```
+
+[![NEØ Protocol Ecosystem](https://res.cloudinary.com/dgyocpguk/image/upload/w_1200,q_auto,f_auto/v1773493630/graph_neoprotocol_wfnnv8.png)](https://dashboard.neoprotocol.space/ecosystem-3d.html)
 
 
- NEØONE ENTERPRISE ░░ DEX.HUB
+
+
+
+WWW.NEOPROTOCOL.SPACE
